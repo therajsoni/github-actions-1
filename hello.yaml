@@ -1,0 +1,10 @@
+name: HELLO WORLD
+jobs:
+ job1:
+  runs-on: ubuntu-latest 
+  steps:
+   - sh "echo 'RAJ SONI'"
+ job2:
+  runs-on: ubuntu-latest
+  steps: 
+    - sh "echo 'PARAM '"
