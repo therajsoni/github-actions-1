@@ -1,0 +1,10 @@
+name: jsr
+on: 
+ - push 
+ - pull_request
+jobs:
+ jsr:
+  runs-on: ubuntu:latest
+  steps:
+      - name: jsr
+        run: echo "jay jay hanuman"
