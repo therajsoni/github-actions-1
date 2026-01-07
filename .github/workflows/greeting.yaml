@@ -1,8 +1,8 @@
-name: Greeting 
-on: [ push ]
+name: Greeting
+on: push
 jobs:
-  greet: 
-     runs-on: 
-     steps: 
-        - name: "greet user"
-          run: echo "Hello Greeting To All"
+  greet:
+    runs-on: ubuntu:latest
+    steps:
+      - name: "greet user"
+        run: echo "Hello Greeting To All"
